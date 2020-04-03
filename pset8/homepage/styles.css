@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    overflow: hidden;
+    padding-top: 10px;
+}
+
+.text {
+    font-size: 18px;
+    width: 60%;
+    float: left;
+}
+
+h1 {
+    font-size: 32px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+p {
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.button-link {
+    color: white;
+}
+
+.article-img {
+    margin: 20px;
+    width: 400px;
+    float: left;
+}
+
+button {
+    margin-top: 40px;
+}
+
+.progress{
+    bottom: 0;
+    position absolute;
+}
