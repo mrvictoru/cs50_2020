@@ -1,6 +1,26 @@
+/* css for index which recreate the google search page */
 body{
     margin: 0%;
     font-family: arial, sans-serif;
     font-size: 0.9em;
-    
+}
+
+a{
+    margin: 5px;
+    text-decoration: none;
+    color: black
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-nav{
+    display: flex;
+    align-items:center
 }
