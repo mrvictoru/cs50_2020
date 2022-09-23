@@ -17,10 +17,13 @@ a:hover{
 
 nav{
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
 }
 
 .header-nav{
     display: flex;
-    align-items:center
+    align-items: center;
+    padding-left: 0px;
+    padding-right: 20px;
+    margin-left: 10px;
 }
