@@ -1,0 +1,55 @@
+<!-- this page recreate the google search page, google image search page and google advance search page-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Image Search</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul class ="header-nav">
+                    <a href="index.html">Search</a>
+                    <a href="images.html">Images</a>
+                </ul>
+            </nav>
+        </header>
+        <section>
+            <div class="logo">
+                <h1><span style = "color: #4285F4">G</span><span style = "color: #DB4437">o</span><span style = "color: #F4B400">o</span><span style = "color: #4285F4" >g</span><span style="color: #31a14f">l</span><span style = "color: #DB4437">e</span></h1>
+
+            </div>
+            <form action="https://www.google.com/search" method="f">
+                <div class = "field">
+                    <label for="search">All these words:</label>
+                    <input type="text" class="textinput" id="field1" value="" name="as_q">
+                </div>
+                <br>
+                <div class = "field">
+                    <label for="search">This exact word or phrase:</label>
+                    <input type="text" class="textinput" id="field2" value="" name="as_epq">
+                </div>
+                <br>
+                <div class = "field">
+                    <label for="search">Any of these words:</label>
+                    <input type="text" class="textinput" id="field3" value="" name="as_oq">
+                </div>
+                <br>
+                <div class = "field">
+                    <label for="search">None of these words:</label>
+                    <input type="text" class="textinput" id="field4" value="" name="as_eq">
+                </div>
+                <br>
+                <div class="field">
+                    <label for="field5">numbers ranging from:</label>
+                    <input type="text" class="textinput1" id="field5" value="" name="as_nlo">
+                    <span class = "seperator">to</span>
+                    <input type="text" class="textinput2" id="field5" value="" name="as_nhi">
+                </div>
+                <input type="submit" value="Advanced Search" class="button">
+
+            </form>
+        </section>
+
+    </body>
+</html>
