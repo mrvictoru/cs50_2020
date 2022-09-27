@@ -99,8 +99,7 @@ button:hover{
 
 .field{
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-direction: row;
+    align-items: flex-start;
     margin-top: 20px;
-
 }
